@@ -2,6 +2,8 @@ module github.com/ChristopherHX/github-act-runner
 
 go 1.21
 
+replace github.com/ChristopherHX/github-act-runner => github.com/leslie-qiwa/github-act-runner v0.0.0-20250811212532-9883bf5d062f
+
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
 	github.com/golang-jwt/jwt v3.2.2+incompatible
